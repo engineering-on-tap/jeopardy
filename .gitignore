@@ -1,0 +1,33 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/electron-build
+/dist
+
+# electron
+/src/electron/*.js
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea
+*.iml
+
+
+.vscode/chrome
